@@ -1,5 +1,5 @@
 {
-  "name": "starwars-names",
+  "name": "starwars-namesey",
   "version": "1.0.0",
   "description": "Get a Star Wars name module.",
   "main": "src/index.js",

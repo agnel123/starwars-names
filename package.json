@@ -2,7 +2,7 @@
   "name": "starwars-names",
   "version": "1.0.0",
   "description": "Get a Star Wars name module.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/philipjc/starwars-names/issues"
   },
-  "homepage": "https://github.com/philipjc/starwars-names#readme"
+  "homepage": "https://github.com/philipjc/starwars-names#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
 }

@@ -8,3 +8,10 @@ module.exports = {
   all: starWarsNames,
   random: unique(starWarsNames);
 };
+
+
+/*
+  Keep your npm version and Githib versions up-to-date
+  by adding a git-tag to your repo.
+  A tag points to a particular commit.
+*/

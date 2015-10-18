@@ -2,13 +2,26 @@
 
 var unique = require('unique-random-array');
 var starWarsNames = require('./starwars-names.json');
+var getRandomItem = unique(starWarsNames);
 
 // all, random - public API points.
 module.exports = {
   all: starWarsNames,
-  random: unique(starWarsNames)
+  random: random
 };
 
+function random(number) {
+  if (!number) {
+    return getRandomItem();
+
+  } else {
+    var randomItems = [];
+    for (var i = 0; i < number; i++) {
+      randomItems.push(getRandomItem());
+    }
+    return randomItems;
+  }
+};
 
 /*
   Keep your npm version and Githib versions up-to-date

@@ -6,7 +6,7 @@ var starWarsNames = require('./starwars-names.json');
 // all, random - public API points.
 module.exports = {
   all: starWarsNames,
-  random: unique(starWarsNames);
+  random: unique(starWarsNames)
 };
 
 

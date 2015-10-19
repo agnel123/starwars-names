@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/philipjc/starwars-names#readme",
   "dependencies": {
+    "fsevents": "1.0.2",
     "unique-random-array": "1.0.0"
   },
   "devDependencies": {

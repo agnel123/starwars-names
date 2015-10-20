@@ -1,20 +1,28 @@
 // this is commonjs syntax. This is the object that get's required in if moduleis used.
 
-import unique from 'unique-random-array';
-import starWarsNames from './starwars-names.json';
+'use strict';
 
-const getRandomItem = unique(starWarsNames);
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _uniqueRandomArray = require('unique-random-array');
+
+var _uniqueRandomArray2 = _interopRequireDefault(_uniqueRandomArray);
+
+var _starwarsNamesJson = require('./starwars-names.json');
+
+var _starwarsNamesJson2 = _interopRequireDefault(_starwarsNamesJson);
+
+var getRandomItem = (0, _uniqueRandomArray2['default'])(_starwarsNamesJson2['default']);
 
 // all, random - public API points.
 module.exports = {
-  all: starWarsNames,
+  all: _starwarsNamesJson2['default'],
   random: random
 };
 
 function random(number) {
   if (!number) {
     return getRandomItem();
-
   } else {
     var randomItems = [];
     for (var i = 0; i < number; i++) {

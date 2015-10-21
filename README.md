@@ -1,5 +1,5 @@
 ## Star Wars Names
-### Followed along with Kent C's tutorial on Egghead.io
+#### Followed along with Kent C's tutorial on Egghead.io
 [![travis build](https://img.shields.io/travis/philipjc/starwars-names.svg?style=flat-square)](https://travis-ci.org/philipjc/starwars-names)
 [![codecov coverage](https://img.shields.io/codecov/c/github/philipjc/starwars-names.svg?style=flat-square)](https://codecov.io/github/philipjc/starwars-names)
 [![version](https://img.shields.io/npm/v/starwars-names.svg?style=flat-square)](http://npm.im/starwars-namesey)
